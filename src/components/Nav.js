@@ -1,60 +1,53 @@
-import React, { Component } from "react";
-
-class NavBar extends Component {
-  render() {
-    return (
-      <div className="NavBar">
-        <nav className="navbar navbar-expand-sm navbar-dark bg-primary">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
-          <button
-            className="navbar-toggler d-lg-none"
-            type="button"
-            data-toggle="collapse"
-            data-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          ></button>
-          <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">
-                  Andrew Brown <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  About
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Projects
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Resume
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Photography
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    );
+import React from "react";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import styled from "styled-components";
+import { Link } from "react-scroll";
+const Styles = styled.div`
+  .navbar {
+    background-color: #22294a;
   }
-}
+  #home {
+    color: #00c7fd;
+  }
+
+  .navbar-nav .nav-link {
+    color: white;
+
+    &:hover {
+      color: #00c7fd;
+    }
+  }
+`;
+
+export const NavBar = () => (
+  <Styles>
+    <Navbar sticky="top" expand="lg">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="m-auto">
+          <Nav.Link id="home" className="px-4" href="#home">
+            Home
+          </Nav.Link>
+          <Nav.Link className="px-4" href="#link">
+            About
+          </Nav.Link>
+          <Nav.Link className="px-4" href="#home">
+            Projects
+          </Nav.Link>
+          <Nav.Link className="px-4" href="#link">
+            Resume
+          </Nav.Link>
+          <Nav.Link className="px-4" href="#home">
+            Photography
+          </Nav.Link>
+          <Nav.Link className="px-4" href="#link">
+            Contact
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+  </Styles>
+);
 
 export default NavBar;

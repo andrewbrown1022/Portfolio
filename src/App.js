@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./styles/App.css";
 import NavBar from "./components/Nav.js";
+import { Link } from "react-scroll";
 
 class App extends Component {
   render() {
