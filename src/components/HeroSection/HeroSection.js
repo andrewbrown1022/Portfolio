@@ -15,10 +15,10 @@ const HeroSection = () => {
     <Container fluid>
       <LandingBackground className="vh-100 align-items-center">
         <StyledCol id="heroMainColumn" className="text-center" lg={12}>
-          <img src="logo.png" width="170px" height="180px"></img>
+          <img id="logo" src="logo.png"></img>
 
           <h1 className="landingHead">
-            Hello, I'm <b>Andrew Brown</b>.
+            Hello, I'm <mark id="nameLandingPage">Andrew Brown</mark>.
           </h1>
           <h1 className="landingHead">
             Computer scientist and aspiring physician.

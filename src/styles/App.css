@@ -9,11 +9,25 @@
   color: white;
 }
 .landingText {
-  font-size: 0.65em;
+  font-size: 0.75em;
   color: white;
 }
 
+#nameLandingPage {
+  color: #00c7fd;
+  background: none;
+  padding: 0;
+}
+#logo {
+  width: 111px;
+  height: 117px;
+}
+
 @media only screen and (min-width: 600px) {
+  #logo {
+    width: 136px;
+    height: 144px;
+  }
   .landingHead {
     font-size: 2em;
     color: white;
@@ -36,6 +50,10 @@
 }
 
 @media only screen and (min-width: 992px) {
+  #logo {
+    width: 170px;
+    height: 180px;
+  }
   .landingHead {
     font-size: 2.5em;
     color: white;
