@@ -3,3 +3,45 @@
   margin: 0;
   padding: 0;
 }
+
+.landingHead {
+  font-size: 1.5em;
+  color: white;
+}
+.landingText {
+  font-size: 0.65em;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .landingHead {
+    font-size: 2em;
+    color: white;
+  }
+  .landingText {
+    font-size: 0.75em;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .landingHead {
+    font-size: 2em;
+    color: white;
+  }
+  .landingText {
+    font-size: 0.75em;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .landingHead {
+    font-size: 2.5em;
+    color: white;
+  }
+  .landingText {
+    font-size: 1em;
+    color: white;
+  }
+}
