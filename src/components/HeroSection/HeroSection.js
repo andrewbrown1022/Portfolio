@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import styled from "styled-components";
+import logo from "../../images/logo.png";
 
 const StyledCol = styled(Col)``;
 
@@ -15,7 +16,7 @@ const HeroSection = () => {
     <Container fluid>
       <LandingBackground className="vh-100 align-items-center">
         <StyledCol id="heroMainColumn" className="text-center" lg={12}>
-          <img id="logo" src="logo.png"></img>
+          <img id="logo" src={logo}></img>
 
           <h1 className="landingHead">
             Hello, I'm <mark id="nameLandingPage">Andrew Brown</mark>.

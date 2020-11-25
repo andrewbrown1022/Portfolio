@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import styled from "styled-components";
 import { Link } from "react-scroll";
 import { Container } from "react-bootstrap";
+
 const Styles = styled.div`
   .navbar {
     background-color: #22294a;

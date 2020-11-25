@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+/* NavBar Styling */
+.navbar-toggler-icon {
+  color: white;
+}
+
+/*Landing Page Styling  */
+
 .landingHead {
   font-size: 1.5em;
   color: white;
@@ -62,4 +69,27 @@
     font-size: 1em;
     color: white;
   }
+}
+
+@media (min-width: 1200px) {
+  .aboutRightListInner {
+    margin-left: 20px;
+  }
+}
+
+/* About Page Styling */
+#aboutLeftHead {
+  color: #22294a;
+}
+#aboutLeftBody {
+  font-size: 1.5em;
+}
+
+.aboutRightList {
+}
+.aboutRightListInner {
+  /* margin-left: 20px; */
+}
+.aboutRightListInnerP {
+  font-size: 1.5em;
 }
