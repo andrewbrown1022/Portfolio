@@ -19,8 +19,8 @@ const AboutHeader = styled(Col)`
 `;
 
 const AboutMainRow = styled(Row)`
-  margin-top: 2em;
-  padding: 2em 0;
+  margin-top: 2vh;
+  padding: 2vh 0;
   margin-bottom: 1em;
 `;
 
@@ -39,28 +39,31 @@ const AboutRightCol = styled(Col)`
   }
 `;
 const Img = styled.img`
-  width: 200px;
-  height: 200px;
+  // width: 200px;
+  // height: 200px;
   border-radius: 50%;
-  @media only screen and (min-width: 600px) {
-  }
+  width: 25vh;
+  height: 25vh;
+  // @media only screen and (min-width: 600px) {
+  // }
 
-  @media only screen and (min-width: 768px) {
-  }
+  // @media only screen and (min-width: 768px) {
+  // }
 
-  @media only screen and (min-width: 992px) {
-    width: 250px;
-    height: 250px;
-  }
-  @media (min-width: 1200px) {
-    width: 300px;
-    height: 300px;
-  }
+  // @media only screen and (min-width: 992px) {
+  //   width: 250px;
+  //   height: 250px;
+  // }
+  // @media (min-width: 1200px) {
+  //   width: 300px;
+  //   height: 300px;
+  // }
 `;
 
 const AboutRightListItem = styled.div`
   display: flex;
   flex-flow: column wrap;
+  margin-top: 2vh;
   @media (min-width: 1200px) {
     display: flex;
     justify-content: left;
@@ -73,7 +76,7 @@ const AboutRightListItem = styled.div`
 
 const About = () => {
   return (
-    <Container id="about" fluid className="">
+    <Container id="about" fluid>
       <Row id="aboutHeaderRow" className=" justify-content-center">
         <AboutHeader
           xs="auto"
@@ -110,7 +113,7 @@ const About = () => {
           className="text-center text-xl-left"
         >
           <AboutRightListItem>
-            <img className="aboutRightList" src={microscope}></img>
+            <img className="aboutRightList aboutImages" src={microscope}></img>
             <div className="aboutRightList">
               <h1 className="aboutRightListInner">Interdisciplinary</h1>
               <p className="aboutRightListInner aboutRightListInnerP">
@@ -120,7 +123,10 @@ const About = () => {
             </div>
           </AboutRightListItem>
           <AboutRightListItem>
-            <img className="aboutRightList" src={collaboration}></img>
+            <img
+              className="aboutRightList aboutImages"
+              src={collaboration}
+            ></img>
             <div className="aboutRightList">
               <h1 className="aboutRightListInner">Collaborative</h1>
               <p className="aboutRightListInner aboutRightListInnerP">
@@ -130,7 +136,7 @@ const About = () => {
             </div>
           </AboutRightListItem>
           <AboutRightListItem>
-            <img className="aboutRightList" src={agile}></img>
+            <img className="aboutRightList aboutImages" src={agile}></img>
             <div className="aboutRightList">
               <h1 className="aboutRightListInner">Fast-paced</h1>
               <p className="aboutRightListInner aboutRightListInnerP">

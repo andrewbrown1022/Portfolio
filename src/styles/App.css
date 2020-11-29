@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #22294a;
+  /* font-size: 1.5vh; */
 }
 
 /* NavBar Styling */
@@ -25,12 +27,23 @@
   background: none;
   padding: 0;
 }
-#logo {
-  width: 111px;
-  height: 117px;
+.logo {
+  width: 12vh;
+  height: 12vh;
 }
 
+@media only screen and (max-width: 1200px) {
+  .aboutImages {
+    margin: 0 auto;
+  }
+}
 @media only screen and (min-width: 600px) {
+  #nameLandingPage {
+    font-size: 1em;
+  }
+  * {
+    font-size: 2vh;
+  }
   #logo {
     width: 136px;
     height: 144px;
@@ -46,6 +59,12 @@
 }
 
 @media only screen and (min-width: 768px) {
+  #nameLandingPage {
+    font-size: 1em;
+  }
+  * {
+    font-size: 1.2vh;
+  }
   .landingHead {
     font-size: 2em;
     color: white;
@@ -87,6 +106,9 @@
 
 .aboutRightList {
 }
+/* .aboutImages {
+  width: 10vh;
+} */
 .aboutRightListInner {
   /* margin-left: 20px; */
 }
@@ -97,4 +119,9 @@
 /* Project Page Styling */
 #projects {
   background-color: #e5e5e5;
+}
+
+.aboutImages {
+  height: 8vh;
+  width: 8vh;
 }
