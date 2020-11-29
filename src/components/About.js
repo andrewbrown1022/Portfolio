@@ -21,7 +21,7 @@ const AboutHeader = styled(Col)`
 const AboutMainRow = styled(Row)`
   margin-top: 2em;
   padding: 2em 0;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
 `;
 
 const AboutLeftCol = styled(Col)`

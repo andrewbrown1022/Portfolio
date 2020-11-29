@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 import Container from "react-bootstrap/Container";
 import HeroSection from "./components/HeroSection/HeroSection";
 import About from "./components/About";
+import Projects from "./components/Projects";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <HeroSection />
         <NavBar />
         <About />
+        <Projects />
       </div>
     );
   }

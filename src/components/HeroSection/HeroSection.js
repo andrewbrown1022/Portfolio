@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import styled from "styled-components";
 import logo from "../../images/logo.png";
+import Particles from "react-particles-js";
 
 const StyledCol = styled(Col)``;
 
