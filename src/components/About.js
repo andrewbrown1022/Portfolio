@@ -25,7 +25,7 @@ const AboutMainRow = styled(Row)`
 `;
 
 const AboutLeftCol = styled(Col)`
-  //   background-color: red;
+  // background-color: red;
   padding: 20px;
   @media (min-width: 1200px) {
     padding: 20px 8em;
@@ -42,8 +42,8 @@ const Img = styled.img`
   // width: 200px;
   // height: 200px;
   border-radius: 50%;
-  width: 25vh;
-  height: 25vh;
+  width: 20vh;
+  height: 20vh;
   // @media only screen and (min-width: 600px) {
   // }
 

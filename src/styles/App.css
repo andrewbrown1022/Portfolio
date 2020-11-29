@@ -125,3 +125,12 @@
   height: 8vh;
   width: 8vh;
 }
+
+/* Resume Styling */
+
+.ResumeUnderline {
+  width: 10%;
+  background-color: #00c7fd;
+  margin-top: 0;
+  border-width: 0.3vh;
+}

@@ -52,7 +52,7 @@ const Projects = () => {
         </ProjectsHeader>
       </ProjectsHeaderRow>
       <ProjectsMainRow className="justify-content-center align-content-center">
-        <ProjectsMainCol xs="12" xl="9">
+        <ProjectsMainCol xs="12" xl="10">
           <CardDeck>
             <Card className=" text-center">
               <Card.Img variant="top" src={mlPoster} />

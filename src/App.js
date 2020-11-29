@@ -4,6 +4,7 @@ import NavBar from "./components/Nav.js";
 import HeroSection from "./components/HeroSection/HeroSection";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         <NavBar />
         <About />
         <Projects />
+        <Resume />
       </div>
     );
   }
