@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
   color: #22294a;
+  font-family: "Poppins", sans-serif;
+
+  /* font-family: "Source Sans Pro", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
   /* font-size: 1.5vh; */
 }
 
@@ -133,4 +137,32 @@
   background-color: #00c7fd;
   margin-top: 0;
   border-width: 0.3vh;
+}
+
+.resumeHeader {
+  color: #22294a;
+}
+#resume {
+  position: relative;
+}
+
+#resume::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-image: url("../images/resume-background-rectangle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+h1 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
 }
